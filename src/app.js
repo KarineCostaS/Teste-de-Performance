@@ -15,7 +15,7 @@ const bandas = [
 ]
 
 app.get('/', (req, res) => {
-    res.status(200).send('Bem vindo a Rock Jeans')
+    res.status(200).send('Bem vindo a Rock Jeans') //Url principal so a localhost
 })
 
 app.get('/bandas', (req,res) => { //devolve todas as l  
